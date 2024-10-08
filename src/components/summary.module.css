@@ -1,0 +1,108 @@
+.main {
+  background-color: white;
+  margin-left: 50px;
+  margin-right: 90px;
+  width: 300px;
+  padding: 20px;
+}
+.main :first-child {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+  letter-spacing: 1.28571px;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+.list img {
+  width: 64px;
+  height: 64px;
+  padding-left: 0;
+  margin-left: 0;
+}
+.list {
+  display: flex;
+  align-items: center;
+}
+.div p {
+  margin: 0;
+  padding: 0;
+}
+.div :nth-child(2) {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 25px;
+  /* identical to box height, or 179% */
+
+  color: #000000;
+
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.divmain {
+  display: flex;
+  justify-content: space-between;
+}
+
+.p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 25px;
+  /* identical to box height, or 179% */
+  padding-right: 4px;
+  color: #000000;
+
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container :first-child {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  /* identical to box height, or 167% */
+
+  color: #000000;
+
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.container :nth-child(2) {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+  text-align: right;
+  text-transform: uppercase;
+}
+.container p {
+  margin: 0;
+  padding: 5px 0 10px 0;
+}
+.sum {
+  margin-top: 30px;
+}
+.main button {
+  margin-top: 20px;
+  width: 100%;
+  background-color: rgba(216, 125, 74, 1);
+  height: 44px;
+}
+.total {
+  color: rgba(216, 125, 74, 1);
+}

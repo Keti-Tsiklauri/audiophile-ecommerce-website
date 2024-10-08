@@ -1,0 +1,265 @@
+body p {
+  color: black;
+}
+.box1 {
+  margin-left: 165px;
+  width: 1110px;
+  height: 560px;
+  left: 165px;
+  top: 496px;
+  display: flex;
+}
+
+.div1 img {
+  width: 540px;
+  height: 560px;
+  padding: 0;
+}
+.div2 {
+  width: 445px;
+  height: 343px;
+  margin-top: 108px;
+}
+.div2 :first-child {
+  height: 19px;
+  padding-left: 125px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+
+  color: #d87d4a;
+}
+.div2 :nth-child(2) {
+  height: 88px;
+  padding-bottom: 0;
+  padding-left: 125px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 44px;
+  /* or 110% */
+  letter-spacing: 1.42857px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  color: #000000;
+}
+.div2 :nth-child(3) {
+  top: 45.19%;
+  bottom: 25.66%;
+  padding-bottom: 30px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  /* or 167% */
+  padding-left: 125px;
+  width: 445px;
+  color: #000000;
+  padding-top: 0;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  margin-top: 0;
+}
+.button2 {
+  background-color: rgba(216, 125, 74);
+
+  height: 48px;
+  width: 160px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.button3 {
+  background-color: rgba(216, 125, 74);
+  margin-left: 125px;
+  height: 48px;
+  width: 160px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.box2 {
+  margin-left: 165px;
+  width: 1110px;
+  height: 560px;
+  left: 165px;
+  top: 496px;
+  display: flex;
+}
+.div4 img {
+  width: 540px;
+  height: 560px;
+}
+.div4 {
+  margin-left: 125px;
+}
+.div3 {
+  width: 445px;
+  height: 308px;
+}
+.div3 :first-child {
+  height: 88px;
+  left: 0%;
+  right: 0%;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 44px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  letter-spacing: 1.42857px;
+  text-transform: uppercase;
+
+  color: #000000;
+  margin-top: 126px;
+}
+.div3 :nth-child(2) {
+  top: 38.96%;
+  bottom: 28.57%;
+  padding-bottom: 30px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  margin-top: 0;
+  padding-top: 0;
+  color: #000000;
+
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.div3 button {
+  background-color: #d87d4a;
+  height: 48px;
+  width: 160px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  border: 0;
+  cursor: pointer;
+}
+.box3 {
+  margin-left: 165px;
+  width: 1110px;
+  height: 560px;
+  left: 165px;
+  top: 496px;
+  display: flex;
+}
+.div5 img {
+  width: 540px;
+  height: 560px;
+}
+.div6 {
+  padding-left: 125px;
+  width: 445px;
+  height: 308px;
+}
+.div5 {
+  width: 445px;
+  height: 308px;
+}
+.div6 :first-child {
+  height: 88px;
+  left: 0%;
+  right: 0%;
+  padding-left: 125px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 44px;
+
+  letter-spacing: 1.42857px;
+  text-transform: uppercase;
+
+  color: #000000;
+  margin-top: 126px;
+}
+.div6 :nth-child(2) {
+  top: 38.96%;
+  bottom: 28.57%;
+  margin-bottom: 30px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  padding-left: 125px;
+  color: #000000;
+
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.buttonSecond {
+  text-decoration: none;
+  background-color: #d87d4a;
+  height: 48px;
+  width: 160px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  padding: 15px 30px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  border: 0;
+  cursor: pointer;
+}
+.buttonFirst {
+  text-decoration: none;
+  background-color: #d87d4a;
+  height: 48px;
+  width: 160px;
+  margin-left: 125px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  padding: 15px 30px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  border: 0;
+  cursor: pointer;
+}
+.opacity {
+  opacity: 0.5;
+}

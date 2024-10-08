@@ -1,0 +1,27 @@
+.container {
+  background-color: black;
+  height: 236px;
+  margin-bottom: 100px;
+}
+.p {
+  margin-top: 0;
+
+  margin-left: 580px;
+  padding-top: 95px;
+  width: 283px;
+
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 44px;
+  position: absolute;
+  text-align: center;
+  letter-spacing: 1.42857px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.opacity {
+  opacity: 0.5;
+}

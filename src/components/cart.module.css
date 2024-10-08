@@ -1,0 +1,214 @@
+.container {
+  width: 317px;
+  margin-left: 898px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 5px 30px;
+  border: 1px solid black;
+}
+.box1 {
+  display: flex;
+  justify-content: space-between;
+}
+.box1 :first-child {
+  height: 25px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+
+  letter-spacing: 1.28571px;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+.box1 :nth-child(2) {
+  height: 25px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+
+  text-decoration-line: underline;
+
+  color: #000000;
+
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.box2 {
+  display: flex;
+  align-items: center; /* Aligns all elements (image, box3, box4) vertically centered */
+  margin-bottom: 4px;
+  border: 1px solid black;
+}
+
+.image {
+  width: 64px; /* Set the size of the image */
+  height: 64px; /* Maintain the aspect ratio */
+  margin-right: 0px; /* Space between the image and the next div */
+  padding: 0 10px 0 0;
+}
+
+.box3 {
+  display: flex;
+  flex-direction: column; /* Stack name and price vertically */
+  justify-content: center; /* Vertically center the content */
+  margin-right: 20px; /* Space between box3 and box4 */
+  height: 64px;
+  /* margin-top: 10px;
+  margin-bottom: 10px; */
+}
+.box3 p {
+  margin: 0; /* Reduce margin between name and price */
+  line-height: 1;
+}
+.box3 :first-child {
+  height: 25px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  /* identical to box height, or 167% */
+  margin-bottom: 0;
+  padding-bottom: 0;
+  color: #000000;
+}
+.box3 :nth-child(2) {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 25px;
+  /* identical to box height, or 179% */
+
+  color: #000000;
+
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.box4 {
+  display: flex;
+  flex-direction: row; /* Arrange '-' , number, '+' horizontally */
+  align-items: center; /* Vertically center the items */
+  background-color: rgba(151, 151, 151, 1);
+  justify-content: space-around;
+  width: 96px;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.minus,
+.number,
+.plus {
+  margin: 0 5px; /* Add spacing between the horizontal elements */
+}
+.minus,
+.plus {
+  cursor: pointer;
+}
+.box5 {
+  display: flex;
+  justify-content: space-between;
+}
+.box5 :first-child {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  /* identical to box height, or 167% */
+
+  color: #000000;
+
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.box5 :nth-child(2) {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+.box6 {
+  position: relative; /* Required to position 'x' absolutely */
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center the box4 elements horizontally */
+  padding-top: 0px;
+
+  margin-left: auto;
+}
+
+.delete {
+  position: absolute;
+  top: -33px;
+  right: 1px;
+  cursor: pointer; /* Makes the "x" clickable */
+  padding: 0;
+  font-weight: 200;
+  color: gray;
+}
+
+.box4 {
+  display: flex;
+  align-items: center; /* Align the number and buttons horizontally */
+  justify-content: space-between; /* Space out the buttons */
+  gap: 10px; /* Adds space between the elements */
+  background-color: rgba(151, 151, 151, 1);
+  width: 96px;
+  margin-top: 20px; /* Add margin to give space between 'x' and box4 */
+  margin-right: 10px;
+}
+
+.minus,
+.plus {
+  cursor: pointer;
+}
+
+.number {
+  padding: 0 5px;
+}
+.button {
+  width: 100%;
+  height: 48px;
+  background-color: rgba(216, 125, 74, 1);
+  /* checkout */
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.close {
+  display: flex;
+  justify-content: space-between;
+}
+.close :first-child {
+  color: red;
+}
+.close :nth-child(2) {
+  cursor: pointer;
+  font-weight: 700;
+}

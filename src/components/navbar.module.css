@@ -1,0 +1,46 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 25px;
+  margin-right: 100px;
+  width: 429px;
+}
+/* Rectangle */
+
+.nav a {
+  color: white; /* Set the link color to white */
+  text-decoration: none; /* Remove the underline */
+}
+.boxes {
+  background-color: rgba(0, 0, 0, 1);
+  padding-bottom: 5px;
+}
+.box {
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.box :first-child p {
+  font-size: 25px;
+  margin-left: 165px;
+  color: #ffffff;
+}
+
+.image img {
+  width: 23.33px;
+  height: 20px;
+  cursor: pointer;
+  margin-right: 100px;
+}
+.absolute {
+  position: absolute;
+  z-index: 2;
+  margin-top: 5px;
+}
+.hide {
+  display: none;
+}

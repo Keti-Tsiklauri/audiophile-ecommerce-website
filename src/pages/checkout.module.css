@@ -1,0 +1,246 @@
+body {
+  background-color: #cfcfcf;
+}
+.go {
+  cursor: pointer;
+  width: 57px;
+  height: 25px;
+  margin-left: 165px;
+  margin-top: 30px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+
+  color: #000000;
+
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.container {
+  width: 80%;
+  margin-left: 165px;
+  background-color: white;
+  padding: 34px 25px;
+  border-radius: 6px;
+}
+.check {
+  margin-top: 0;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36px;
+  /* identical to box height, or 112% */
+  letter-spacing: 1.14286px;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+.title {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 25px;
+  /* identical to box height, or 192% */
+  letter-spacing: 0.928571px;
+  text-transform: uppercase;
+
+  color: #d87d4a;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+.box :first-child {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.214286px;
+  margin-bottom: 5px;
+  color: #000000;
+}
+.box :nth-child(2) {
+  /* Rectangle Copy */
+
+  box-sizing: border-box;
+
+  background: #ffffff;
+  border: 1px solid #cfcfcf;
+  border-radius: 8px;
+  width: 309px;
+  height: 36px;
+  padding-left: 20px;
+}
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.phone {
+  margin-bottom: 40px;
+}
+.address {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+.address :first-child {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.214286px;
+  margin-bottom: 5px;
+  color: #000000;
+}
+.address :nth-child(2) {
+  /* Rectangle Copy */
+
+  box-sizing: border-box;
+
+  background: #ffffff;
+  border: 1px solid #cfcfcf;
+  border-radius: 8px;
+  width: 100%;
+  height: 36px;
+  padding-left: 20px;
+}
+.country {
+  margin-bottom: 40px;
+}
+.pay {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.pay :first-child {
+  margin-top: 0px;
+}
+.div10 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.div10 {
+  display: flex;
+  flex-direction: column;
+}
+
+.div11,
+.div12 {
+  width: 309px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  padding-left: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.radio {
+  appearance: none; /* Hide the default radio button */
+  width: 18px;
+  height: 18px;
+  border: 1px solid #cfcfcf; /* Gray border initially (outer circle) */
+  border-radius: 50%;
+  background-color: none; /* Yellow background for inner circle */
+  margin-right: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+/* Styling when checked */
+.radio:checked {
+  background-color: transparent;
+}
+.radio:checked::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #d87d4a;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.payment :first-child {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.214286px;
+
+  color: #000000;
+}
+.div11 label {
+  /* e-Money */
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.25px;
+
+  color: #000000;
+}
+.div12 label {
+  /* e-Money */
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.25px;
+
+  color: #000000;
+}
+.div11,
+.div12 {
+  border: 1px solid #cfcfcf;
+}
+.changeBorder {
+  border: 1px solid #d87d4a;
+}
+.margin {
+  width: 50%;
+  margin-left: 20px;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+.margin :first-child {
+  width: 50%;
+}
+.relative {
+  position: relative;
+}
+.opacity {
+  opacity: 0.5;
+}
+.see {
+  opacity: 1;
+}
+.errorText {
+  color: red;
+  padding-top: 0;
+  margin-top: 5px;
+}
+.payp {
+  margin-bottom: 0;
+}

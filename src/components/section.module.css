@@ -1,0 +1,170 @@
+.container1 {
+  display: flex;
+  justify-content: space-between;
+
+  background-image: url("\assets\home\desktop\pattern-circles.svg");
+  background-color: rgb(216, 125, 74);
+  height: 445px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.box1 {
+  width: 50vw;
+  justify-content: center;
+}
+
+.image {
+  width: 320px;
+  height: 380px;
+  margin: 35px 0 0 200px;
+  padding-left: 40px;
+  padding-top: 0;
+}
+p {
+  color: white;
+}
+.box1 :first-child {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 56px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000; /* Black contour */
+  padding-top: 0;
+  padding-top: 30px;
+  line-height: 1;
+  margin-bottom: 30px;
+}
+.box1 :nth-child(2) {
+  font-weight: 100;
+  padding-bottom: 20px;
+  line-height: 1.5;
+  font-size: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.image1 {
+  background-color: rgb(151, 151, 151);
+  margin: 0;
+  padding: 0;
+}
+.speaker {
+  color: #000;
+}
+.speaker p {
+  color: #000;
+  font-size: 28px;
+  font-weight: 500;
+
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+Link {
+  text-decoration: none;
+}
+button {
+  width: 160px; /* Set width to 160px */
+  height: 48px; /* Set height to 48px */
+  background-color: black;
+  color: white;
+  border: 0;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center; /* Center text horizontally */
+  align-items: center; /* Center text vertically */
+  font-size: 14px; /* Adjust font size */
+  line-height: 1; /* Ensure no extra space between lines */
+  padding: 0; /* Remove default padding */
+}
+
+/* Add hover effect for button */
+.button:hover {
+  background-color: #333; /* Darker background on hover */
+}
+.button1 {
+  background-color: rgb(151, 151, 151);
+  color: black;
+  border: 1px solid black;
+
+  font-weight: 550;
+  cursor: pointer;
+}
+
+.container2 {
+  background-color: rgb(151, 151, 151);
+  display: flex;
+  height: 50vh; /* Adjust height as needed */
+  border-radius: 8px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.speaker {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.imgspeaker {
+  width: 60%; /* Set width to 60% of the container */
+  height: 100%; /* Ensure the div takes up the full height of its container */
+  display: flex; /* To center the image */
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Hide any overflow to mimic background image behavior */
+}
+
+.imgspeaker img {
+  display: block; /* Remove any default inline spacing */
+  width: 100%; /* Fill the width of the div */
+  height: 100%; /* Fill the height of the div */
+  object-fit: cover; /* Cover the entire div */
+  margin: 0; /* Remove any default margin */
+  padding: 0; /* Remove any default padding */
+  border-radius: 8px;
+}
+.container3 {
+  display: flex;
+  gap: 50px;
+  margin-top: 20px;
+  height: 50vh;
+  margin-bottom: 20px;
+}
+.box3 {
+  width: 100%;
+  border-radius: 4px;
+}
+.second {
+  background-color: rgb(151, 151, 151);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.blackimg {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  background-color: #000;
+}
+.blackimg img {
+  display: block; /* Remove any default inline spacing */
+  width: 100%; /* Fill the width of the div */
+  height: 100%; /* Fill the height of the div */
+  object-fit: cover; /* Cover the entire div */
+  margin: 0; /* Remove any default margin */
+  padding: 0; /* Remove any default padding */
+  border-radius: 8px;
+}
+.second p {
+  color: #000;
+  font-size: 28px;
+  font-weight: 500;
+
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
